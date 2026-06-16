@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first web page </title>
 </head>
+<style>
+marquee {
+    color: brown;
+}
+
+h1 {
+    background-color: aqua;
+    border: 4px solid blueviolet;
+    width: 250px;
+    text-align: center;
+}
 <body>
     <table>
         <td><h1>DaDs home </h1></td>
@@ -82,5 +93,63 @@
         
 
     </table>
+
+<marquee behavior="alternate" scrollamount="20">
+    <h1>Today is Monday</h1>
+</marquee>
+<hr>
+<marquee behavior="right" scrollamount="20">
+    <h2>Today is Tuesday!</h2>
+</marquee>
+<hr>
+<s> the </s>is a tag used <del>to dhann</del><ins>to dhane </ins> mark text as deleted
+<hr>
+<abbr title="electrionics &communicate">ece</abbr>
+</body>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+    </tr>
+
+    <tr>
+        <td>Dhane</td>
+        <td>25</td>
+        <td>New York</td>
+    </tr>
+
+    <tr bgcolor="yellow">
+        <td colspan="3">
+            <marquee behavior="alternate" scrollamount="10">
+                <h2>Dhann</h2>
+            </marquee>
+        </td>
+    </tr>
+    
+</table>
+<hr>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+        <th colspan="4">l<br>u<br>n<br>c<br>h</th>
+    </tr>
+
+    <tr>
+        <td>Dhane</td>
+        <td>25</td>
+        <td>New York</td>
+    </tr>
+<tr>
+    <th>friday </th>
+    <center> <td>Dhane</td>   </center>
+    
+    <td></td>
+</tr>
+</table>
+<input type="radio" name="" id="">
+<input type="datetime-local"> I agree
 </body>
 </html>
