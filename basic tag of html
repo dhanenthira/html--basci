@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first web page </title>
+</head>
+<body>
+    <table>
+        <td><h1>DaDs home </h1></td>
+        <tr>
+            <td><label for="name">NAME</label></td>
+            <td><input type="text" id="name" name="name" placeholder="ENTER THE NAME "></td>
+        </tr>
+        <tr>
+            <td><label for="last">LAST NAME </label></td>
+            <td><input type="text" id="email" name="email" placeholder="ENTER THE LASR NAME "></td>
+        </tr>
+        <tr>
+            <td><label for="dob"></label>DATE OF BIRTH</td>
+            <td><input type="date" id="" name=""></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pass">passward</label>
+
+            </td>
+            <td>
+                <input type="password" name="pass" id="pass">
+            </td>
+        </tr><tr>
+            <td><label for="">time</label></td>
+            <td>
+            <input type="time">
+        
+        </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="">EMAIL</label>
+
+            </td>
+            <td><input type="email" placeholder="basump@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="">File</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><label for="">RANGE</label></td>
+            <td><input type="range"></td>
+        </tr>
+        <tr>
+            <td><label for="">GENDER</label></td>
+            <td><input type="radio">MALE</td><td><input type="radio">FEMALE</td>
+        </tr>
+        <tr>
+            <td><label for=""></label>WEEK</td>
+            <td><input type="week" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="">TELIPHONE</label></td>
+            <td><input type="teliphone"></td>
+        </tr>
+        <tr>
+            <td><label for="">COLOUR</label></td>
+            <td><input type="color" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="">FEED BACK</label></td>
+            <td><input type="feedback" name="" id=""></td><br><br>
+        </tr>
+        <tr>
+            <td><label for="">HOBBIES</label></td>
+            <td><input type="checkbox" name="" id="">cricket</td><td><input type="checkbox" name="" id="">musical</td><td><input type="checkbox" name="" id="">game</td>
+        </tr>
+        <tr>
+            <td><label for="">RESET</label></td>
+            <td><input type="reset" name="" id=""></td>
+        </tr>
+        
+
+    </table>
+</body>
+</html>
